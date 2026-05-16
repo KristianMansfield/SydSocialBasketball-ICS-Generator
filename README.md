@@ -15,6 +15,12 @@ I've used pipenv but you can run it in venv if you'd like
 1. `pipenv run python3 main.py`
 1. Upload the generated ics file to your calendar app.
 
+Use the full url for the team you'd like to download the schedule for:
+```
+$ pipenv run python3 ./main.py
+Enter the team URL: https://sydneysocialbasketball.com.au/team/short-kings-10/
+```
+
 ## How It Works
 1. Prompt user for a team URL
 1. Download schedue for that team
